@@ -1,0 +1,147 @@
+* {
+    -ms-word-wrap:break-word;
+    word-wrap:break-word;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "\5fae\8f6f\96c5\9ed1","\5B8B\4F53","\9ED1\4F53",arial,sans-serif;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav{
+
+}
+
+body{
+    margin: 0;
+}
+
+.content {
+    padding: 50px;
+}
+
+.thumbImage {
+    width: 50px;
+    height: 50px;
+}
+
+
+.padder {
+    margin: 50px auto;
+}
+
+.background{
+    /*background: url("../img/grass.jpg");*/
+    background: #eeeeee;
+}
+
+.opaquewhite{
+    background: #fefdff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(63, 62, 66, 0.35);
+    -moz-box-shadow: 0 1px 1px 0 rgba(63, 62, 66, 0.35);
+    box-shadow: 0 1px 1px 0 rgba(30, 30, 30, 0.35)
+}
+
+.staticwhite{
+    background: rgba(248, 243, 243, 1);
+}
+
+.index a {
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: none;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+}
+section .index a {
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 1.35em;
+}
+.index a::before {
+    top: 0;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+.index a::before, .index a::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+.index a::after {
+    bottom: 0;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+}
+.index a:hover,
+.index a:focus,
+.index a.active{
+    color: #fff;
+}
+
+.index a:hover::before,
+.index a:focus::before,
+.index a:hover::after,
+.index a:focus::after,
+.index a.active::before,
+.index a.active::after{
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.bg-road {
+    background: url("../img/lane.jpg");
+}
+
+section{
+    text-align: center;
+    margin-right: 15px;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+li {
+    list-style-type: none;
+}
+p{
+    padding: 0;
+    margin: 0;
+}

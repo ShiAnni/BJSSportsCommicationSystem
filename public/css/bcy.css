@@ -1,0 +1,1175 @@
+.spaceProfileCard__img {
+    position: relative;
+    overflow: hidden
+}
+
+.spaceProfileCard__img:hover .spaceProfileCard__tip {
+    opacity: 1
+}
+.spaceProfileCard__tip {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 14px;
+    right: 28px;
+    width: 70px;
+    height: 50px;
+    background-position: -341px 0;
+}
+.spaceProfileCard__upCover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 34px;
+    height: 34px;
+    background-position: -549px -133px
+}
+.spaceProfileCard__bd {
+    position: relative;
+    min-height: 63px;
+    padding-left: 210px
+}
+.spaceProfileCard ._avatar {
+    position: absolute;
+    left: 39px;
+    bottom: 15px;
+    /*text-align: center;*/
+    width: 160px;
+    height: 160px;
+    /*overflow: hidden;*/
+}
+._avatar {
+    display: inline-block;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    vertical-align: top
+}
+._avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.spaceProfileCard ._avatar .imgContainer {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff !important;
+    height: 160px;
+    width:160px;
+}
+._avatar--user img{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%
+}
+
+.spaceProfileCard ._avatar:hover .avatarMask {
+    visibility: visible
+}
+
+.spaceProfileCard .avatarMask {
+    line-height: 30px;
+    font-size: 12px
+}
+.avatarMask {
+    position: absolute;
+    visibility: hidden;
+    top: 120px;
+    left: 15px;
+    z-index: 1;
+    height: 20%;
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+    zoom: 1
+}
+
+.avatarMask:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .8);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000);
+    zoom: 1
+}
+
+.i-disable-change, .i-disable-profits, .i-disable-reprint, .i-signature, .i-work-sex-30-0, .i-work-sex-30-1 {
+    width: 30px;
+    height: 30px
+}
+.i-work-sex-30-0 {
+    background-image: url(../img/u-sex-0.png);
+    background-size: contain
+}
+.i-work-sex-30-1 {
+    background-image: url(../img/u-sex-1.png);
+    background-size: contain
+}
+.spaceProfileCard ._avatar .avatar-sex {
+    right: 10px;
+    bottom: 10px
+}
+.card{
+    margin-bottom:30px;
+    position: relative;
+}
+.nodecoration a{
+    text-decoration: none;
+}
+.spaceProfileCard__line {
+    position: absolute;
+    left: 228px;
+    top: -38px;
+    width:972px;
+}
+.spaceProfileCard__line .text-shadow{
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+.tab-nav {
+    z-index: 2;
+    font-size: 14px
+}
+
+.tab-nav__item {
+    display: inline-block;
+    float: left;
+    padding: 6px 20px 4px;
+    border-bottom: 2px solid transparent;
+    line-height: 18px
+}
+
+.tab-nav__item, .tab-nav__item:hover {
+    color: #535353
+}
+
+.tab-nav__item--active, .tab-nav__item:hover {
+    border-color: #6d0000
+}
+
+.tab-nav__item--active {
+    font-weight: 700
+}
+
+.tab-nav__followWork {
+    width: 135px;
+    text-align: center;
+    padding: 0 0 12px
+}
+
+.tab-nav__followWork--active, .tab-nav__followWork--active:hover {
+    color: #6d0000
+}
+
+.tab-nav__followWork--active, .tab-nav__followWork:hover {
+    border-color: #6d0000
+}
+
+.tab-nav--bottomBorder {
+    border-bottom: 2px solid #e0e0e0
+}
+
+.tab-nav--bottomBorder .tab-nav__item {
+    margin-bottom: -2px
+}
+
+.tab-nav--default .tab-nav__item {
+    padding: 10px 30px
+}
+
+.tab-nav--short .tab-nav__item {
+    padding: 10px 20px
+}
+
+.tab-nav--space .tab-nav__item {
+    padding: 21px 35px;
+    border-bottom: 4px solid transparent
+}
+
+.tab-nav--space .tab-nav__item--active, .tab-nav--space .tab-nav__item:hover {
+    border-color: #6d0000
+}
+
+.title-nav {
+    border-bottom: 2px solid #e0e0e0
+}
+
+.title-nav__item, .title-nav__items, .title-nav__title {
+    float: left;
+    font-size: 14px;
+    line-height: 1
+}
+
+.title-nav__title {
+    font-weight: 700
+}
+
+.title-nav__items {
+    margin-left: 25px
+}
+
+.title-nav__item {
+    position: relative;
+    display: block;
+    padding: 0 15px 5px;
+    color: #535353;
+    z-index: 1
+}
+
+.title-nav__item--active, .title-nav__item:hover {
+    color: #6d0000
+}
+
+.title-nav__item--active:after, .title-nav__item--active:before {
+    position: absolute;
+    content: ' '
+}
+
+.title-nav__item--active:before {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #6d0000;
+    left: 0;
+    bottom: -2px
+}
+
+.title-nav__item--active:after {
+    width: 0;
+    height: 0;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    margin: auto;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #6d0000
+}
+
+.tab-nav__item--active {
+    font-weight: 700
+}
+.spaceProfileCard__follow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 200px;
+    height: 36px
+}
+.follow{
+    color: #535353;
+    width: 75px;
+}
+.followpnumber{
+    font-size:18px;
+    margin-bottom:5px;
+}
+.followptext{
+    line-height:5px;
+}
+.b {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    background-color: #e5e5e5;
+    border: 0;
+    /*text-indent: -199px;*/
+    height:36px;
+}
+
+.title-nav {
+    border-bottom: 2px solid #e0e0e0
+}
+.subnav{
+    position: relative;
+    margin-bottom: 20px;
+}
+.title-nav__item, .title-nav__items, .title-nav__title {
+    float: left;
+    font-size: 14px;
+    line-height: 1
+}
+
+.title-nav__title {
+    font-weight: 700
+}
+
+.title-nav__items {
+    margin-left: 25px
+}
+
+.title-nav__item {
+    position: relative;
+    display: block;
+    padding: 0 15px 5px;
+    color: #535353;
+    z-index: 1
+}
+.title-nav__item--active, .title-nav__item:hover {
+    color: #ff6fa2
+}
+
+.title-nav__item--active:after, .title-nav__item--active:before {
+    position: absolute;
+    content: ' '
+}
+
+.title-nav__item--active:before {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ff6fa2;
+    left: 0;
+    bottom: -2px
+}
+
+.title-nav__item--active:after {
+    width: 0;
+    height: 0;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    margin: auto;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #ff6fa2
+}
+.timeline-panel__bd {
+    overflow: visible !important;
+    margin-top:15px;
+}
+.hdCard {
+    margin: 10px;
+}
+.hdCard__hd {
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    zoom: 1
+}
+
+.hdCard__hd:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+.hdCard__link, .hdCard__tit {
+    line-height: 14px;
+    color: #535353
+}
+
+.hdCard__tit {
+    float: left;
+    font-weight: 700;
+    font-size: 14px
+}
+
+.hdCard__link {
+    float: right;
+    font-size: 12px
+}
+
+.hdCard__hd:hover .hdCard__link {
+    color: #ff6fa2
+}
+.vam {
+    vertical-align: middle !important;
+}
+._btn, .badge, .newBtn, .radius2 {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px
+}
+._btn, .newBtn {
+    display: inline-block;
+    height: 28px;
+    padding: 0 19px;
+    border: 1px solid transparent;
+    background-image: none;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: 0;
+    -webkit-transition: background-color, .3s false;
+    -moz-transition: background-color, .3s false;
+    -o-transition: background-color, .3s false;
+    transition: background-color, .3s
+}
+._btn--l {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 19px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 14px
+}
+
+._btn--white, ._btn--whiteRed, ._btn--whiteText, .alphabetNav, .block_n, .border-shadow, .boxy-wrapper, .expo-info:before, .newThumbnail, .subNavbar, .thumbnail, .work-thumbnail {
+    -webkit-box-shadow: 0 1px 1px 0 rgba(192, 192, 192, .35);
+    -moz-box-shadow: 0 1px 1px 0 rgba(192, 192, 192, .35);
+    box-shadow: 0 1px 1px 0 rgba(192, 192, 192, .35)
+}
+._btn--white, ._btn--whiteRed, ._btn--whiteText {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #959595
+}
+
+._btn--white:hover, ._btn--whiteRed:hover, ._btn--whiteText:hover {
+    border: 1px solid #eaeaea;
+    background-color: #eaeaea;
+    color: #959595
+}
+._btn--block {
+    display: block;
+    width: 100%
+}
+
+.newFanBox ._avatar {
+    top: 5px;
+    left: 5px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid #fff
+}
+
+.newFanBox ._avatar, .newFanBox__follow, .newFanBox__rm {
+    position: absolute
+}
+.newFanBox ._avatar, .newFanBox__follow, .newFanBox__rm {
+    position: absolute
+}
+.newFanBox__rm {
+    line-height: 20px;
+    top: 15px;
+    right: 40px
+}
+.newFanBox__cnt {
+    min-height: 60px;
+    padding-bottom: 5px;
+    padding-right: 10px
+}
+.newFanBox header, .newFanBox__cnt {
+    padding-left: 100px
+}
+._tag {
+    display: inline-block
+}
+
+._tag--user {
+    padding: 0 5px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    line-height: 20px;
+    text-align: center;
+    color: #28a2e5;
+    background-color: #e6f5fc
+}
+._tag--user--cos, ._tag--user--illust, ._tag--user--novel {
+    cursor: pointer;
+    background-color: #fde9f1;
+    color: #ff6fa2
+}
+
+._tag--user--cos:hover, ._tag--user--illust:hover, ._tag--user--novel:hover {
+    color: #ff6fa2;
+    background-color: #fce0eb
+}
+.pag {
+    float: left;
+    position: relative;
+    left: 50%
+}
+
+.pag__item {
+    float: left;
+    position: relative;
+    right: 50%;
+    width: 32px;
+    height: 32px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    margin-right: 5px;
+    background-color: #fff;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+    color: #535353
+}
+
+.pag__item :hover, .pag__item--disabled {
+    background-color: #f6f6f6
+}
+
+.pag__item--is-cur {
+    border: 0;
+    background-color: transparent
+}
+
+.pag__item > a {
+    color: #535353;
+    display: block;
+    height: 100%;
+    width: 100%
+}
+
+.pag__item:last-child, .pag__item:nth-child(2) {
+    width: 55px
+}
+
+.pag__item:first-child {
+    width: auto
+}
+.setting-table {
+    border-collapse: collapse;
+    font-size: 14px;
+    width:100%;
+}
+
+.setting-table tr td {
+    padding: 0
+}
+
+.setting-table tr td:first-child {
+    width: 20%;
+    text-align: center;
+    background: #fafafa;
+}
+
+.setting-table .setting-content {
+    padding: 30px 0;
+    margin: 0 20px;
+    width: 80%;
+}
+
+.setting-table .setting-work {
+    background: #fafafa
+}
+
+.setting-table .setting-list {
+    background: #fff
+}
+
+.setting-list {
+    width: 146px;
+    height: 46px;
+    text-align: center;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #4083a9;
+    background-color: #f9f9f9;
+    border: #e0e0e0 1px solid;
+    float: left;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    transition: all .2s;
+    padding: 0 10px
+}
+
+.setting-list p {
+    max-height: 38px;
+    overflow: hidden
+}
+
+.setting-list:hover {
+    background: #ff6fa2;
+    border-color: #ff6fa2;
+    color: #fff
+}
+
+.setting-list:hover i {
+    background: -418px -809px
+}
+
+.setting-list:hover .setting-cancel {
+    opacity: 1
+}
+
+.setting-cancel {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 0;
+    top: 0;
+    opacity: 0
+}
+
+.setting-cancel span {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 8px;
+    height: 8px;
+    background: -898px -313px
+}
+.dynamic-box__otype, .dynamic-box__time {
+    text-align: center
+}
+
+.dynamic-box__otype {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 7px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 50px;
+    display: inline-block;
+    overflow: hidden
+}
+.dynamic-box__otype--drawer {
+    background-color: #69bb2f
+}
+
+.dynamic-box__otype--coser {
+    background-color: #ff6fa2
+}
+
+.dynamic-box__otype--user {
+    background-color: #ff8000;
+    width: 51px
+}
+
+.dynamic-box__otype--group {
+    background-color: #f3a342
+}
+
+.dynamic-box__otype--ask {
+    background-color: #ffc46f
+}
+
+.dynamic-box__otype--writer {
+    background-color: #2db2ea
+}
+
+.dynamic-box__time {
+    font-size: 12px;
+    color: #959595
+}
+
+.dynamic-box__time:hover {
+    cursor: pointer;
+    color: #ff6fa2
+}
+
+.dynamic-box__opers {
+    position: absolute;
+    float: right;
+    right: 5px;
+    bottom: 5px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px
+}
+
+.dynamic-box__opers a {
+    display: block;
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #e0e0e0;
+    text-align: center;
+    color: #535353
+}
+
+.dynamic-box__opers a.disabled {
+    color: #959595
+}
+
+.dynamic-box__opers a:last-of-type {
+    padding-right: 0;
+    border-right: 0
+}
+.timeline-box__inner {
+    min-height: 105px
+}
+
+
+.dynamic-box__opers a {
+    display: block;
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #e0e0e0;
+    text-align: center;
+    color: #535353
+}
+
+.dynamic-box__opers a.disabled {
+    color: #959595
+}
+
+.dynamic-box__opers a:last-of-type {
+    padding-right: 0;
+    border-right: 0
+}
+.opers {
+    overflow: hidden
+}
+
+.opers > a {
+    display: block;
+    float: left;
+    min-width: 100px;
+    border-right: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #535353;
+    text-align: center
+}
+
+.opers > a:last-of-type {
+    border-right: 0
+}
+
+.opers > a:hover {
+    color: #ff6fa2
+}
+
+.opers a.disabled, .opers a.disabled:hover {
+    color: #959595
+}
+.dynamic-box__publish {
+    display: none
+}
+
+.dynamic-box__publish .comment__load-more-btn {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1;
+    color: #2db2ea
+}
+
+.dynamic-box__publish .comment__load-more-btn:hover {
+    color: #ff6fa2
+}
+
+.dynamic-box__publish .publish__comment-list {
+    margin-bottom: 0
+}
+.timeline-box__inner .viewmore {
+    top: 50px !important;
+    padding: 0
+}
+.imgGridMore {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 100px;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .8);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000);
+    zoom: 1;
+    -moz-border-radius-topleft: 25px;
+    -webkit-border-top-left-radius: 25px;
+    border-top-left-radius: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    border-bottom-left-radius: 25px
+}
+.tag-list {
+    position: relative;
+    display: inline-block;
+    height: 24px;
+    padding-left: 23px
+}
+
+.tag-list > i {
+    position: absolute;
+    top: 3px;
+    left: 0
+}
+
+.tag-list > li {
+    display: block;
+    float: left;
+    height: 24px;
+    padding: 0 5px;
+    margin-right: 10px;
+    line-height: 24px;
+    font-size: 14px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    color: #535353
+}
+
+.tag-list > li:hover {
+    background-color: #f5f5f5
+}
+
+.tag-list > li a {
+    color: #535353
+}
+.l-tag-list {
+    width: 280px;
+    overflow: hidden
+}
+.form-group {
+    position: relative;
+    padding-left: 195px;
+    min-height: 28px
+}
+
+.form-group__left {
+    position: absolute;
+    left: 0;
+    width: 165px;
+    text-align: right
+}
+
+.form-group--sm {
+    padding-left: 145px
+}
+
+.form-group--sm .form-group__left {
+    width: 115px
+}
+
+.form-set {
+    min-height: 28px
+}
+
+.form-set .form-center {
+    text-align: center
+}
+
+.form-set .input-set {
+    display: inline;
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    color: #404040
+}
+.flyout {
+    display: inline-block;
+    position: relative
+}
+
+.flyout__content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 2
+}
+
+.flyout--alt .flyout__content {
+    top: 0;
+    left: 100%
+}
+
+.flyout--left .flyout__content {
+    top: 0;
+    left: -30px
+}
+
+.flyout--top .flyout__content {
+    top: auto;
+    bottom: 100%;
+    left: 0
+}
+.form-input {
+    width: 190px;
+    height: 28px
+}
+
+.form-input--sm {
+    width: 152px
+}
+
+.form-input--l {
+    width: 414px
+}
+
+.form-input--xl {
+    width: 424px
+}
+
+.form-input--xxl {
+    width: 520px
+}
+.block_n, .border_r_nor, .btn_b, .btn_b_disable, .btn_big, .btn_big_disable, .btn_green_w121, .btn_green_w121_d, .btn_reg, .customStyleSelectBox, .stat_req a.selected, .uploadifyButton {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
+}
+.customStyleSelectBoxInner {
+    line-height: 22px;
+    padding-right: 24px;
+    background: url('../img/select-arrow.png') center right no-repeat
+}
+.checkbox {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    line-height: 18px
+}
+
+.checkbox input[type=checkbox], .checkbox input[type=radio], .checkbox__bg {
+    display: block;
+    width: 18px;
+    height: 18px
+}
+
+.checkbox__bg {
+    float: left;
+    margin-right: 3px;
+    z-index: 1;
+    overflow: hidden;
+    background: -684px -809px
+}
+
+.checkbox input[type=checkbox], .checkbox input[type=radio] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0
+}
+
+input[type=checkbox]:checked + .checkbox__bg {
+    z-index: 1;
+    background: -722px -809px
+}
+
+.checkbox--radio .checkbox__bg {
+    background: -760px -809px
+}
+
+.checkbox--radio input[type=radio]:checked + .checkbox__bg {
+    background: -798px -809px
+}
+._btn--border:hover {
+    border: 1px solid #fff;
+    color: #fff
+}
+
+._btn--redBorder {
+    border: 1px solid #ff6fa2;
+    background-color: transparent;
+    color: #ff6fa2;
+    padding: 0 5px 0 10px
+}
+
+._btn--redBorder .i-arrow-next {
+    background: -550px -847px
+}
+
+._btn--redBorder:hover {
+    color: #fff;
+    background-color: #ff6fa2
+}
+
+._btn--redBorder:hover .i-arrow-next {
+    background: -380px -847px
+}
+
+._btn--red, ._btn--red[type=button], ._btn--red[type=submit] {
+    border: 1px solid #ff6fa2;
+    background-color: #ff6fa2;
+    color: #fff
+}
+
+._btn--red:hover, ._btn--red[type=button]:hover, ._btn--red[type=submit]:hover {
+    border: 1px solid #ff4081;
+    background-color: #ff4081;
+    color: #fff
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+._box, .date-filters, .posts-nav .post-stat:hover a {
+    zoom: 1;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(192, 192, 192, .35);
+    -moz-box-shadow: 0 1px 1px 0 rgba(192, 192, 192, .35);
+    box-shadow: 0 1px 1px 0 rgba(192, 192, 192, .35);
+    background-color: #fff
+}
+._box:after, .date-filters:after, .posts-nav .post-stat:hover a:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+#gif .cancel, .dtl_ava .stat_samp, .posa, .tab_zone_1 a.on:after {
+    position: absolute
+}
+._icon-text:hover .i-pic-hover, ._icon-text:hover .i-video-hover, .bcy-icon, .btn--work .i-work-tag, .btn--work-detault .i-work-tag, .circle-model .i-model-card, .circle-model .i-model-grid, .date-filters__next i, .date-filters__prev i, .i--hot, .i--new, .i-add-attractive, .i-add-green, .i-add-large, .i-add-secondary, .i-add-white, .i-admin-white, .i-alipay, .i-android, .i-answer-secondary, .i-arrow-down-blue, .i-arrow-down-secondary, .i-arrow-gray, .i-beta, .i-big-v-18, .i-big-v-22, .i-block-user, .i-book, .i-book-2, .i-calendar-small-white, .i-camera-attractive, .i-characters, .i-chart-white, .i-clock, .i-clock-secondary, .i-copyright-secondary, .i-count-deep, .i-count-secondary, .i-cover-deep, .i-disable-change, .i-disable-change-sm, .i-disable-profits, .i-disable-profits-sm, .i-disable-reprint, .i-disable-reprint-sm, .i-edit, .i-edit-deep, .i-event-blue, .i-fanfic-attractive, .i-fiction-attractive, .i-fish-white, .i-flag-attractive, .i-gear-attractive, .i-gear-secondary, .i-gear-white, .i-grain, .i-group-attractive, .i-group-secondary, .i-group-work, .i-groups, .i-handshake-secondary, .i-handshake-xl, .i-heart, .i-heart-attractive, .i-heart-red, .i-heart-secondary, .i-heart-white, .i-heart-xl, .i-home-white, .i-huaji, .i-img, .i-important-attractive, .i-index-activity, .i-index-adopt, .i-index-circle, .i-index-ding, .i-index-dis, .i-index-fish, .i-index-hot, .i-index-new, .i-index-recommend, .i-index-seh, .i-index-set, .i-index-tag, .i-index-toplist, .i-international, .i-iphone, .i-king, .i-large-tag, .i-lianZai-deep, .i-lianzai-red, .i-lianzai-white, .i-location, .i-mail-secondary, .i-mail-white, .i-microphone-secondary, .i-microphone-white, .i-money-attractive, .i-more, .i-msg-deep, .i-new, .i-new-sex-0, .i-new-sex-1, .i-notice-announce, .i-notice-ask, .i-notice-comment, .i-notice-newfans, .i-notice-remind, .i-notice-rss, .i-original-red, .i-original-secondary, .i-original-white, .i-paw, .i-paw-attractive, .i-paw-count, .i-paw-deep, .i-paw-hover:hover, .i-paw-is-hover, .i-paw-white, .i-pen-attractive, .i-pen-xl, .i-pic-deep, .i-pic-expo, .i-pic-hover:hover, .i-pic-secondary, .i-play-attractive, .i-police-record, .i-pub-black, .i-publish, .i-qq-social, .i-qq-social2, .i-qqzone-social, .i-qqzone-social2, .i-quotes-after, .i-quotes-before, .i-read-white, .i-renren-social, .i-renren-social2, .i-reply-count, .i-right, .i-right-arrow, .i-role-nepal, .i-role-secondary, .i-role-white, .i-rss-attractive, .i-rss-deep, .i-rss-white, .i-say, .i-second-secondary, .i-serialize, .i-setting-secondary, .i-sheart-white, .i-shutdown-white, .i-signature, .i-signature-sm, .i-sina-social, .i-sina-social2, .i-site-nepal, .i-square-group, .i-staff, .i-sub-black, .i-tag, .i-tag-deep, .i-tag-g, .i-tag-nepal, .i-tag-red, .i-tag-white, .i-techDraw-attractive, .i-techDraw-white, .i-time-attractive, .i-time-nepal, .i-time-secondary, .i-timeline-block, .i-tongji, .i-trash-deep, .i-u-sex-0-s, .i-u-sex-1-s, .i-unfold-hover, .i-up-attractive, .i-video-deep, .i-video-hover:hover, .i-vote-white, .i-wechat-social, .i-wechat-social2, .i-weibo-white, .i-work-deep, .i-work-nepal, .i-work-secondary, .i-work-sex-0, .i-work-sex-1, .i-work-sex-30-0, .i-work-sex-30-1, .i-wrong, .icon--18, .publish-tips:hover i, .redBar:after, .say-input:before {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    vertical-align: top
+}
+#l-footer .l-footer__international .i-arrow-down-gray, ._btn--redBorder .i-arrow-next, ._btn--redBorder:hover .i-arrow-next, ._btn--spaceZaned i, ._icon-text:hover .i-pic-hover, ._icon-text:hover .i-video-hover, .activity__end, .activity__underway, .appMore1280 .appDownload, .appMore1280 .toFeedback, .appMore1280 .toTop, .aside-circle-group .list-circle-group__left, .attent-num, .bcy-v, .blockUser .blockUser__inner:before, .btn--add-tag > i, .btn--index-tag-event i, .btn--tag .btn__text-wrap > i, .btn--tag--event .btn__text-wrap > i, .btn--tag-2 i, .btn--tag-2:hover i, .btn--tag-3 .btn__text-wrap > i, .btn--work .i-work-tag, .btn--work-detault .i-work-tag, .btn--work-detault:hover .i-work-tag, .btn--work:hover .i-work-tag, .btn--zan .btn__text-wrap > i, .btn--zaned .btn__text-wrap > i, .bullet, .checkbox--radio .checkbox__bg, .checkbox--radio input[type=radio]:checked + .checkbox__bg, .checkbox__bg, .circle-model .i-model-card, .circle-model:hover .i-model-card, .close2, .close3, .close4, .corner-meta--top-left:before, .corner-meta--top-right:before, .date-filters__next i, .date-filters__next:hover i, .date-filters__prev i, .date-filters__prev:hover i, .dateCalendar__wrap .today, .detail-followers > i, .detail-goods-info .collect, .detail-goods-info .uncollect, .dialogue-bubble--left:before, .dialogue-bubble--right:before, .dropdown-menu__item.active .i-mail-white, .event-panel__tag i, .event-panel__title--cos i, .event-panel__title--daily i, .event-panel__title--drawer i, .event-panel__title--writer i, .facetext.active .facetext__trigger, .facetext__trigger, .facetext__trigger:hover, .fanRankModal .newBtn i, .followTopic i, .followTopic:hover i, .form-select.customSelectInner, .giftList__top1, .giftList__top2, .giftList__top3, .goodsBanner__next, .goodsBanner__pre, .goodsCard__transh, .gouda--tag, .group-need-attend__num, .guide-btn__arrow, .heart-list > li:before, .helpHoverTip, .i--hot, .i--new, .i-add-attractive, .i-add-green, .i-add-secondary, .i-add-white, .i-admin-white, .i-alipay, .i-android, .i-angle-up, .i-answer-secondary, .i-arrow-down-secondary, .i-arrow-next, .i-arrow-next-attractive, .i-arrow-next-gray, .i-arrow-prev, .i-arrow-prev-gray, .i-beta, .i-block-user, .i-book, .i-book-2, .i-calendar-small-white, .i-camera-attractive, .i-chart-white, .i-circle-group, .i-circle-hot, .i-circle-index, .i-clock, .i-clock-secondary, .i-content-list, .i-copyright-secondary, .i-count-deep, .i-count-secondary, .i-cover-deep, .i-disable-change, .i-disable-change-sm, .i-disable-profits, .i-disable-profits-sm, .i-disable-reprint, .i-disable-reprint-sm, .i-eachfollowBtn, .i-edit-deep, .i-event-blue, .i-fanfic-attractive, .i-fiction-attractive, .i-fish-white, .i-flag-attractive, .i-followedBtn, .i-gear-white, .i-grain, .i-group, .i-group-attractive, .i-group-secondary, .i-group-work, .i-groups, .i-handshake-secondary, .i-handshake-xl, .i-heart--0, .i-heart--1, .i-heart--2, .i-heart--3, .i-heart--4, .i-heart--5, .i-heart--6, .i-heart--6:hover, .i-heart-attractive, .i-heart-red, .i-heart-secondary, .i-heart-white, .i-heart-xl, .i-home-white, .i-huaji, .i-img, .i-important-attractive, .i-index-activity, .i-index-adopt, .i-index-circle, .i-index-ding, .i-index-dis, .i-index-fish, .i-index-hot, .i-index-new, .i-index-recommend, .i-index-seh, .i-index-set, .i-index-tag, .i-index-toplist, .i-international, .i-intro-s, .i-king, .i-large-arrow, .i-large-tag, .i-lianZai-deep, .i-lianzai-white, .i-location, .i-location-s, .i-mail-secondary, .i-mail-white, .i-microphone-secondary, .i-microphone-white, .i-money-attractive, .i-more, .i-msg-deep, .i-new, .i-new-sex-0, .i-new-sex-1, .i-newTimelineReplyDown, .i-newTimelineReplyDown.active, .i-notice-ask, .i-notice-newfans, .i-notice-remind, .i-notice-rss, .i-origin-s, .i-original-red, .i-original-secondary, .i-original-white, .i-paw, .i-paw-attractive, .i-paw-count, .i-paw-deep, .i-paw-hover:hover, .i-paw-is-hover, .i-paw-white, .i-pen-attractive, .i-pen-xl, .i-pic-deep, .i-pic-expo, .i-pic-hover:hover, .i-police-record, .i-pub-black, .i-qq-social, .i-qq-social2, .i-qq-social2:hover, .i-qq-social:hover, .i-qqzone-social, .i-qqzone-social2, .i-qqzone-social2:hover, .i-qqzone-social:hover, .i-quotes-after, .i-quotes-before, .i-read-white, .i-renren-social, .i-renren-social2, .i-renren-social2:hover, .i-renren-social:hover, .i-reply-count, .i-right, .i-right-arrow, .i-role-nepal, .i-role-secondary, .i-rss-attractive, .i-rss-deep, .i-rss-white, .i-say, .i-second-secondary, .i-serialize, .i-set-quotes-1:before, .i-set-quotes-2:before, .i-set-white-1:before, .i-set-white-2:before, .i-setting-secondary, .i-sheart-white, .i-shutdown-white, .i-signature, .i-signature-sm, .i-sina-social, .i-sina-social2, .i-sina-social2:hover, .i-sina-social:hover, .i-site-nepal, .i-square-group, .i-sub-black, .i-sub-nav-cat, .i-sub-nav-collect, .i-sub-nav-community, .i-sub-nav-dis, .i-sub-nav-discover-group, .i-sub-nav-home, .i-sub-nav-hot, .i-sub-nav-join-team, .i-sub-nav-list, .i-sub-nav-mark, .i-sub-nav-my-team, .i-sub-nav-novel, .i-sub-nav-paint, .i-sub-nav-party, .i-sub-nav-recommend, .i-sub-nav-recruitment, .i-sub-nav-second, .i-sub-nav-set, .i-sub-nav-shop, .i-sub-nav-shoplist, .i-sub-nav-square-group, .i-sub-nav-teach, .i-sub-nav-work, .i-sub-nav-yuegao, .i-sub-nav-zhipin, .i-tag-deep, .i-tag-g, .i-tag-nepal, .i-tag-white, .i-techDraw-attractive, .i-techDraw-white, .i-time-attractive, .i-time-nepal, .i-time-secondary, .i-timeline-block, .i-tip-cat, .i-tip-cat3, .i-tip-cat5, .i-tongji, .i-trash-deep, .i-tucao-quotes-1:before, .i-tucao-quotes-2:before, .i-u-sex-0-s, .i-u-sex-1-s, .i-up-attractive, .i-video-deep, .i-video-hover:hover, .i-wechat-social, .i-wechat-social2, .i-wechat-social2:hover, .i-wechat-social:hover, .i-weibo-s, .i-work, .i-work-deep, .i-work-nepal, .i-wrong, .imgPost__ft .imgPost__prev span:before, .indexProfile__oper--admin i, .indexProfile__oper--home i, .indexProfile__oper--like i, .input-add-tag__cancle, .input-add-tag__confirm, .latestGift .border-1:before, .latestGift .border-2:before, .latestGift .border-3:before, .latestGift .border-4:before, .latestGift .border-5:before, .letterSort__letter, .lianzaiPager__next, .lianzaiPager__nonext, .lianzaiPager__noprev, .lianzaiPager__prev, .login-register-box__form .login-register-box__email:before, .login-register-box__form .login-register-box__password:before, .newThumbnail__p:before, .newTimelineLoadMore:after, .newTimelineNovelCnt:after, .newTimelineNovelCnt:before, .newTimelineToggle i, .newTimelineToggle.active i, .notify-post__calendar, .novelContent .novelSet, .novelOtherWorkPost__badge, .oneWeekText:after, .paw-zan:hover i, .post__title .post__next-1, .post__title .post__next-1:hover, .post__title .post__prev-1, .post__title .post__prev-1:hover, .posts-nav .post-stat:hover a i, .posts-nav--right .set.active .i-huaji, .posts-nav--right .set.active .i-lianZai-deep, .posts-nav--right .set:hover .i-huaji, .posts-nav--right .set:hover .i-lianZai-deep, .publish-box .i-angle-up, .publish-create-form .group-add-tag.active:after, .publish-create-form .group-add-work.active:after, .publish-create-form .group-setting.active:after, .publish-loaf .publish-title:before, .publisher__cos, .publisher__daily, .publisher__group, .publisher__illust, .publisher__novel, .publisher__textarea:after, .say-input--inset-shadow.say-input--is-focus:before, .say-input--inset-shadow:before, .say-input.say-input--inset-shadow.say-input--is-focus.say-input--right:before, .search-input--flat input[type=submit], .search-input--flat input[type=text]:focus + input[type=submit], .search-input--flat.active input[type=submit], .select-preview:after, .selectedImg:after, .setDropdown__trigger i, .setting-cancel span, .setting-list:hover i, .shareBox:before, .shy, .sina-checkbox__bg, .site-more__box .site-subTitle:after, .slash, .space-followWork:hover i, .spaceProfileCard__tip, .spaceProfileCard__upCover, .sub_current .i-sub-nav-cat, .sub_current .i-sub-nav-collect, .sub_current .i-sub-nav-community, .sub_current .i-sub-nav-dis, .sub_current .i-sub-nav-discover-group, .sub_current .i-sub-nav-home, .sub_current .i-sub-nav-hot, .sub_current .i-sub-nav-join-team, .sub_current .i-sub-nav-list, .sub_current .i-sub-nav-mark, .sub_current .i-sub-nav-my-team, .sub_current .i-sub-nav-novel, .sub_current .i-sub-nav-paint, .sub_current .i-sub-nav-party, .sub_current .i-sub-nav-recommend, .sub_current .i-sub-nav-recruitment, .sub_current .i-sub-nav-second, .sub_current .i-sub-nav-set, .sub_current .i-sub-nav-shop, .sub_current .i-sub-nav-square-group, .sub_current .i-sub-nav-teach, .sub_current .i-sub-nav-work, .sub_current .i-sub-nav-yuegao, .sub_current .i-sub-nav-zhipin, .subform-index:hover .i-img, .subform-index:hover .i-original-secondary, .table--gift tbody tr:nth-of-type(even) .i-fish, .table--gift tbody tr:nth-of-type(odd) .i-fish, .talk--blue.talk--left:before, .talk--blue.talk--right:before, .talk--default.talk--left:before, .talk--default.talk--right:before, .thridLogin--qq, .thridLogin--weibo, .timeline-block:hover .i-timeline-block, .tmpa, .tool-tip:after, .topMore:after, .topWorkFilter.active .i-work-deep, .topWorkFilter:hover .i-work-deep, .wave__new, .work-tag:hover .i-group-work, .work-thumbnail__left-top:before, .work-thumbnail__right-top, a.active .i-circle-group, a.active .i-circle-hot, a.active .i-circle-index, a:hover .i-circle-group, a:hover .i-circle-hot, a:hover .i-circle-index, a:hover .i-groups, a:hover .i-sub-nav-cat, a:hover .i-sub-nav-collect, a:hover .i-sub-nav-community, a:hover .i-sub-nav-dis, a:hover .i-sub-nav-discover-group, a:hover .i-sub-nav-home, a:hover .i-sub-nav-hot, a:hover .i-sub-nav-join-team, a:hover .i-sub-nav-list, a:hover .i-sub-nav-mark, a:hover .i-sub-nav-my-team, a:hover .i-sub-nav-novel, a:hover .i-sub-nav-paint, a:hover .i-sub-nav-party, a:hover .i-sub-nav-recommend, a:hover .i-sub-nav-recruitment, a:hover .i-sub-nav-second, a:hover .i-sub-nav-set, a:hover .i-sub-nav-shop, a:hover .i-sub-nav-square-group, a:hover .i-sub-nav-teach, a:hover .i-sub-nav-work, a:hover .i-sub-nav-yuegao, a:hover .i-sub-nav-zhipin, input[type=checkbox]:checked + .checkbox__bg, input[type=checkbox]:checked + .sina-checkbox__bg, input[type=checkbox]:hover + .sina-checkbox__bg {
+    background-image: url(../img/sprite_main.png)
+}
+#l-header, #l-header .site-nav, ._btn-group, .add-img-btn-container .uploadifyQueueItem, .border-head, .btn, .channel-panel__bd, .channel-panel__hd, .cnt2, .col-big, .col-small, .comment, .container, .detail-followers, .detail-followers ul, .detail-user-info, .detail-work-info__recommend-zan, .dialogue, .dialogue-bubble, .dropdown-menu, .dynamic-box__bd, .dynamic-box__opers, .event-panel__headline, .filter-bar, .filter-bar__dropdown ul, .filter-bar__nav, .footer-login-register, .footer-login-register__operator, .footer-login-register__third-party, .grid .grid__inner, .grid4 .grid__inner, .grid5 .grid__inner, .hd--1, .l-bcy-god, .l-clearfix, .l-col-small, .l-editorModal__ft, .l-illust-index-active, .l-inline-list, .l-team__name, .login-register-box__form, .login-register-box__form input[type=password], .login-register-box__form input[type=text], .login-register-box__hd, .mainbox, .media, .monthCalendar__wrap .typeSelector, .new-comment, .new-row, .newCol-big, .newTimelineTag, .pager, .panel__bd, .post__content, .post__detail-tag .tags, .post__info-group, .post__staff, .post__staff-group, .post__tag .tags, .publish__form, .r-col-big, .recent-join-in-users, .row, .sidebar-avatar-list, .sidebar-avatar-list-island, .sidebar-avatar-list-large, .single-grid, .slider-info__item, .slider__ft, .tab-nav, .tag-list, .tag_onepost, .title-nav, .title-nav__items, .tool-tip, .work-thumbnail--second .work-thumbnail__originality, .work-thumbnail--second .work-thumbnail__role {
+    zoom: 1
+}
+
+#l-header .site-nav:after, #l-header:after, ._btn-group:after, .add-img-btn-container .uploadifyQueueItem:after, .border-head:after, .btn:after, .channel-panel__bd:after, .channel-panel__hd:after, .cnt2:after, .col-big:after, .col-small:after, .comment:after, .container:after, .detail-followers ul:after, .detail-followers:after, .detail-user-info:after, .detail-work-info__recommend-zan:after, .dialogue-bubble:after, .dialogue:after, .dropdown-menu:after, .dynamic-box__bd:after, .dynamic-box__opers:after, .event-panel__headline:after, .filter-bar:after, .filter-bar__dropdown ul:after, .filter-bar__nav:after, .footer-login-register:after, .footer-login-register__operator:after, .footer-login-register__third-party:after, .grid .grid__inner:after, .grid4 .grid__inner:after, .grid5 .grid__inner:after, .hd--1:after, .l-bcy-god:after, .l-clearfix:after, .l-col-small:after, .l-editorModal__ft:after, .l-illust-index-active:after, .l-inline-list:after, .l-team__name:after, .login-register-box__form input[type=password]:after, .login-register-box__form input[type=text]:after, .login-register-box__form:after, .login-register-box__hd:after, .mainbox:after, .media:after, .monthCalendar__wrap .typeSelector:after, .new-comment:after, .new-row:after, .newCol-big:after, .newTimelineTag:after, .pager:after, .panel__bd:after, .post__content:after, .post__detail-tag .tags:after, .post__info-group:after, .post__staff-group:after, .post__staff:after, .post__tag .tags:after, .publish__form:after, .r-col-big:after, .recent-join-in-users:after, .row:after, .sidebar-avatar-list-island:after, .sidebar-avatar-list-large:after, .sidebar-avatar-list:after, .single-grid:after, .slider-info__item:after, .slider__ft:after, .tab-nav:after, .tag-list:after, .tag_onepost:after, .title-nav:after, .title-nav__items:after, .tool-tip:after, .work-thumbnail--second .work-thumbnail__originality:after, .work-thumbnail--second .work-thumbnail__role:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+.Prompt_con dd, .article_post_content embed, .block_inl, .block_inr, .form_center .ico_cue_ok, .form_list, .form_list .form_li, .form_list .form_li .reg_li_1, .form_list .form_li .reg_li_2, .form_list .form_li .reg_li_3, .html_clew_box, .l-left, .lwf, .lwf_img img, .mainbox_C, .mainbox_F, .newpost dl, .reg_box h2, .tab_zone_1 a, .tab_zone_1 li, .title_r, .title_r h2, .title_r h3, .title_r p, .upload_pic #hint #gallery_upload, .upload_pic #hint #gfs_app_upload, .upload_pic #hint #gfs_upload, .upload_pic #hint #gfs_upload_share, .upload_pic #uploadgfs_hint #gallery_upload, .upload_pic #uploadgfs_hint #gfs_app_upload, .upload_pic #uploadgfs_hint #gfs_upload, .upload_pic #uploadgfs_hint #gfs_upload_share {
+    float: left
+}
+.alC, .center, .tab_zone_1 a {
+    text-align: center
+}
+blockquote, body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, ul {
+    padding: 0;
+    margin: 0;
+}
+.clear, .html_clew_box_close, .mainbox {
+    clear: both
+}
+._icon-text:hover .i-pic-hover, ._icon-text:hover .i-video-hover, .bcy-icon, .btn--work .i-work-tag, .btn--work-detault .i-work-tag, .circle-model .i-model-card, .circle-model .i-model-grid, .date-filters__next i, .date-filters__prev i, .i-add-attractive, .i-add-green, .i-add-secondary, .i-add-white, .i-admin-white, .i-answer-secondary, .i-arrow-down-blue, .i-arrow-down-secondary, .i-arrow-gray, .i-block-user, .i-book, .i-book-2, .i-calendar-small-white, .i-camera-attractive, .i-characters, .i-chart-white, .i-clock, .i-clock-secondary, .i-copyright-secondary, .i-count-deep, .i-count-secondary, .i-cover-deep, .i-disable-change-sm, .i-disable-profits-sm, .i-disable-reprint-sm, .i-edit, .i-edit-deep, .i-event-blue, .i-fanfic-attractive, .i-fiction-attractive, .i-fish-white, .i-flag-attractive, .i-gear-attractive, .i-gear-secondary, .i-gear-white, .i-grain, .i-group-attractive, .i-group-secondary, .i-group-work, .i-groups, .i-handshake-secondary, .i-heart, .i-heart-attractive, .i-heart-red, .i-heart-secondary, .i-heart-white, .i-home-white, .i-huaji, .i-img, .i-important-attractive, .i-international, .i-king, .i-lianZai-deep, .i-lianzai-red, .i-lianzai-white, .i-location, .i-mail-secondary, .i-mail-white, .i-microphone-secondary, .i-microphone-white, .i-money-attractive, .i-more, .i-msg-deep, .i-new-sex-0, .i-new-sex-1, .i-notice-announce, .i-notice-ask, .i-notice-comment, .i-notice-newfans, .i-notice-remind, .i-notice-rss, .i-original-red, .i-original-secondary, .i-original-white, .i-paw, .i-paw-attractive, .i-paw-count, .i-paw-deep, .i-paw-hover:hover, .i-paw-is-hover, .i-paw-white, .i-pen-attractive, .i-pic-deep, .i-pic-expo, .i-pic-hover:hover, .i-pic-secondary, .i-play-attractive, .i-police-record, .i-publish, .i-quotes-after, .i-quotes-before, .i-read-white, .i-reply-count, .i-right, .i-right-arrow, .i-role-nepal, .i-role-secondary, .i-role-white, .i-rss-attractive, .i-rss-deep, .i-rss-white, .i-say, .i-second-secondary, .i-serialize, .i-setting-secondary, .i-shutdown-white, .i-signature-sm, .i-site-nepal, .i-square-group, .i-staff, .i-tag, .i-tag-deep, .i-tag-g, .i-tag-nepal, .i-tag-red, .i-tag-white, .i-techDraw-attractive, .i-techDraw-white, .i-time-attractive, .i-time-nepal, .i-time-secondary, .i-timeline-block, .i-tongji, .i-trash-deep, .i-unfold-hover, .i-up-attractive, .i-video-deep, .i-video-hover:hover, .i-vote-white, .i-weibo-white, .i-work-deep, .i-work-nepal, .i-work-secondary, .i-wrong, .publish-tips:hover i {
+    width: 18px;
+    height: 18px
+}
+.i-close, .i-intro-s, .i-location-s, .i-origin-s, .i-rise, .i-s, .i-weibo-s {
+    display: inline-block;
+    width: 12px;
+    height: 12px
+}
+.text, span.text > a {
+    color: #535353
+}
+i {
+    background-repeat: no-repeat!important;
+    font-style: normal;
+}
+.i-intro-s {
+    background-position: -782px -847px;
+}
+.i-edit-deep {
+    background-position: 0 -809px;
+}
+.i-location-s {
+    background-position: -750px -847px
+}
+.i-new-sex-0 {
+    background-position: -860px -646px
+}
+.i-new-sex-1 {
+    background-position: -860px -684px
+}
+.i-followedBtn {
+    background-position: -228px -847px
+}
+.i-tag {
+    background-image: url('../img/tag-1.png')
+}
+
+.newFanBox {
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(192, 192, 192, .35);
+    -moz-box-shadow: 0 1px 1px 0 rgba(192, 192, 192, .35);
+    box-shadow: 0 1px 1px 0 rgba(192, 192, 192, .35);
+    position: relative;
+    margin: 10px;
+}
+
+.newFanBox header, .newFanBox__cnt {
+    padding-left: 100px
+}
+.hover-show__item {
+    display: none !important
+}
+
+.hover-show:hover .hover-show__item {
+    display: block !important
+}
+
+.hover-show--inline-block:hover .hover-show__item {
+    display: inline-block !important
+}
+
+.hover-show--inline:hover .hover-show__item {
+    display: inline !important
+}
+
+
+.i-eachfollowBtn, .i-followBtn, .i-followedBtn {
+    display: inline-block;
+    width: 20px;
+    height: 20px
+}
+.newFanBox__follow {
+    top: 15px;
+    right: 10px
+}
+.newFanBox ._avatar, .newFanBox__follow, .newFanBox__rm {
+    position: absolute
+}
